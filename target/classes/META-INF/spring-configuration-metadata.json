@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "seed",
+      "type": "org.airway.airwaybackend.config.SeedProperties",
+      "sourceType": "org.airway.airwaybackend.config.SeedProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "seed.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.airway.airwaybackend.config.SeedProperties"
+    }
+  ],
+  "hints": []
+}
