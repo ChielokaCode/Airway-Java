@@ -1,0 +1,63 @@
+## Name of the service, used as the application name on Render.
+#name: airway_db
+#
+## Type of service being deployed. Can be 'web', 'background', 'cron', etc.
+#type: web
+#
+## Plan defines the tier of resources allocated to the service. Options include Free, Starter, Standard, Pro, etc.
+#plan: Standard
+#
+## Region where the service is deployed. Use the region closest to your user base.
+#region: oregon
+#
+## If set to true, service will auto-deploy when a new version is available.
+#autoDeploy: true
+#
+## Build section defines the build process for the application.
+#build:
+#  # Command to execute during the build process.
+#  command: npm install && npm run build
+#
+#  # Build environment variables can be defined here.
+#  env:
+#    NODE_ENV: production
+#
+## Env section contains the environment variables for your application.
+#env:
+#  # Key-value pairs of environment variables.
+#  DATABASE_URL: postgres://user:password@hostname:port/database
+#  SECRET_KEY: my_secret_key
+#
+## Routes section defines custom routes and redirects.
+#routes:
+#  - type: rewrite
+#    source: /old-url
+#    destination: /new-url
+#
+## Defines the number of instances and scaling behavior for the service.
+#scaling:
+#  # Number of instances to maintain as a base.
+#  minInstances: 1
+#  maxInstances: 3
+#
+#  # Defines if Render should automatically scale up/down instances.
+#  autoScalingEnabled: true
+#
+## Probes section specifies health checks.
+#probes:
+#  livenessProbe:
+#    path: /health
+#    interval: 10s
+#    timeout: 5s
+#    failureThreshold: 3
+#
+## Custom domains and redirects can be configured here.
+#customDomains:
+#  - domain: www.myapp.com
+#    redirects: true
+#
+## Specifies any background workers.
+#backgroundWorker:
+#  name: my-worker
+#  buildCommand: npm install && npm run build
+#  startCommand: npm run start
