@@ -1,0 +1,12 @@
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/controller/FlightControllerTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/controller/CountryControllerTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/serviceImpl/UserServiceImplTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/serviceImpl/FlightServiceImplTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/repository/FlightRepositoryTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/serviceImpl/BookingConfirmationCleanupTaskTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/boot/AdminDataLoaderTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/controller/BookingControllerTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/repository/BookingRepositoryTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/serviceImpl/CountryServiceImplTest.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/AirwayBackendApplicationTests.java
+/Users/wikiwoo/Desktop/JavaTuts/Airway-API/src/test/java/org/airway/airwaybackend/controller/AuthControllerTest.java

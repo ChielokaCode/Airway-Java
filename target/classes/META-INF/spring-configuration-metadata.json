@@ -10,7 +10,8 @@
     {
       "name": "seed.enabled",
       "type": "java.lang.Boolean",
-      "sourceType": "org.airway.airwaybackend.config.SeedProperties"
+      "sourceType": "org.airway.airwaybackend.config.SeedProperties",
+      "defaultValue": false
     }
   ],
   "hints": []
