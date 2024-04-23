@@ -61,3 +61,16 @@
 #  name: my-worker
 #  buildCommand: npm install && npm run build
 #  startCommand: npm run start
+
+# Exported from Render on 2024-04-23T14:04:07Z
+databases:
+  - name: airway_db
+    databaseName: airway_db
+    user: airway_db_user
+    plan: free
+    region: oregon
+    ipAllowList:
+      - source: 0.0.0.0/0
+        description: everywhere
+    postgresMajorVersion: "16"
+version: "1"
